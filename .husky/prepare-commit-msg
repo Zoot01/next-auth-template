@@ -1,4 +1,15 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-exec < /dev/tty && npx cz --hook || true
+echo '🏗️👷 Styling your project before committing👷‍♂️🏗️'
+echo 'please be patient, this may take a while...'
+
+# Check ESLint Standards
+npm run lint ||
+(
+    echo '🔨❌ Yoo, you have a problem in your code. Check linter 🔨❌
+          Run yarn lint, add changes and try commit again.';
+    false;
+)
+
+echo '🎉 No error found: committing this now.... ✨🚀🏄‍♂️🍻'
