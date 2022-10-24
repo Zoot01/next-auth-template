@@ -152,7 +152,6 @@ export default function SignUp() {
                 <FormControl isInvalid={errors.first_name && true}>
                   <FormLabel color={'blackAlpha.600'}>First name</FormLabel>
                   <Input
-                    id="first_name"
                     type="text"
                     borderColor={'blackAlpha.500'}
                     {...register('first_name', {

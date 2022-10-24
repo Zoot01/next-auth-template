@@ -108,20 +108,11 @@ const Profile: NextPage<
               <Heading fontSize={'2xl'} fontFamily={'body'}>
                 {user?.first_name} {user?.last_name}
               </Heading>
-              <Text
-                textAlign={'center'}
-                color={useColorModeValue('gray.700', 'gray.400')}
-                px={3}
-              >
-                Actress, musician, songwriter and artist. PM for work inquires
-                or me in your posts
-              </Text>
-
               <Stack
                 align={'center'}
                 justify={'center'}
                 direction={'column'}
-                mt={6}
+                mt={2}
               >
                 {user?.admin && (
                   <Badge
