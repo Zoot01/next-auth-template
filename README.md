@@ -36,6 +36,14 @@ Run the application
 
 Sign in and test web application 🎂
 
+## Screenshots
+
+![App Screenshot](https://i.imgur.com/757F40v.png)
+
+![App Screenshot](https://i.imgur.com/M4VLDwb.png)
+
+![App Screenshot](https://i.imgur.com/rwhhpi1.png)
+
 ## Acknowledgements
 
 - [Design Inspo](https://www.figma.com/@harjas)
